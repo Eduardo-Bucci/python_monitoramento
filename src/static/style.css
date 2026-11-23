@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f2f2f2;
+
+    text-align: center;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+.card{
+    background-color: color;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius:10px;
+}
+
+#temperatura{
+    font-size:40px;
+    color:blue
+}
+
+#grafico{
+    width:800px !important;
+    height:600px !important;
+    margin:30px auto;
+    display:block;
+}
