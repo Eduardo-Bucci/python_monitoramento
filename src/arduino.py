@@ -40,7 +40,6 @@ try:
 
             except ValueError:
                 continue
-            
        
         time.sleep(0.3)
 

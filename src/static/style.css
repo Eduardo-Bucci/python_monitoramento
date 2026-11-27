@@ -35,8 +35,14 @@ svg {
 
 /* Área do shopping */
 .shopping {
-    fill: #222;
+    fill:rgb(0, 0, 57);
     stroke: white;
+    stroke-width: 3;
+}
+
+.protoboard {
+    fill:white;
+    stroke: gray;
     stroke-width: 3;
 }
 
@@ -46,11 +52,23 @@ svg {
     text-anchor: middle;
 }
 
+.texto-protoboard {
+    fill: black;
+    font-size: 24px;
+    text-anchor: middle;
+}
+
 /* Vagas */
 .vaga {
-    fill: transparent;
+    fill:none;
     stroke: white;
     stroke-width: 3;
+}
+
+.canteiro {
+    fill:lawngreen;
+    stroke: gray;
+    stroke-width: 2;
 }
 
 /* Indicadores */
@@ -83,13 +101,16 @@ svg {
 }
 
 .parede{
-    
     fill: transparent;
     stroke: white;
     stroke-width: 3;
-
 }
 
+.estrada{
+    fill: yellow;
+    stroke: gray;
+    stroke-width: 3;
+}
 
 /*8
 #conectarArduino {

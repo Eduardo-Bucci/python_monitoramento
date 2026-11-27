@@ -44,4 +44,4 @@ async function buscarDados(){
 }
 
 buscarDados()
-setInterval(buscarDados, 2000)
+setInterval(buscarDados, 1000)
